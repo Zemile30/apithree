@@ -5,7 +5,7 @@ from .routes import get_news
 app = Flask(__name__)
 
 CORS(app, resources={r"/api/news": {
-    "origins": ["https://zemile30.github.io"],
+    "origins": ["https://Zemile30.github.io"],
     "methods": ["GET"]
 }})
 
